@@ -1,0 +1,31 @@
+cuda:0
+Seed = 8
+Episode 25	Time 0.40sec(m)	Avg. Score both 100ep: -0.0031	Max: 0.00000
+Episode 50	Time 0.79sec(m)	Avg. Score both 100ep: -0.0032	Max: 0.00000
+Episode 75	Time 1.08sec(m)	Avg. Score both 100ep: -0.0017	Max: 0.20000
+Episode 100	Time 1.12sec(m)	Avg. Score both 100ep: -0.0007	Max: 0.20000
+Episode 125	Time 1.13sec(m)	Avg. Score both 100ep: 0.0003	Max: 0.200010
+Episode 150	Time 1.14sec(m)	Avg. Score both 100ep: 0.0011	Max: 0.200010
+Episode 175	Time 1.15sec(m)	Avg. Score both 100ep: 0.0005	Max: 0.200010
+Episode 200	Time 1.16sec(m)	Avg. Score both 100ep: -0.0005	Max: 0.20000
+Episode 225	Time 1.19sec(m)	Avg. Score both 100ep: -0.0012	Max: 0.20000
+Episode 250	Time 1.20sec(m)	Avg. Score both 100ep: -0.0016	Max: 0.20000
+Episode 275	Time 1.21sec(m)	Avg. Score both 100ep: -0.0018	Max: 0.20000
+Episode 300	Time 1.24sec(m)	Avg. Score both 100ep: -0.0018	Max: 0.20000
+Episode 325	Time 1.29sec(m)	Avg. Score both 100ep: -0.0013	Max: 0.20000
+Episode 350	Time 1.38sec(m)	Avg. Score both 100ep: 0.0000	Max: 0.200000
+Episode 375	Time 1.53sec(m)	Avg. Score both 100ep: 0.0028	Max: 0.300010
+Episode 400	Time 1.74sec(m)	Avg. Score both 100ep: 0.0068	Max: 0.400000
+Episode 425	Time 1.91sec(m)	Avg. Score both 100ep: 0.0119	Max: 0.400000
+Episode 450	Time 2.14sec(m)	Avg. Score both 100ep: 0.0182	Max: 1.00000
+Episode 475	Time 2.25sec(m)	Avg. Score both 100ep: 0.0241	Max: 1.000000
+Episode 500	Time 2.78sec(m)	Avg. Score both 100ep: 0.0308	Max: 2.700000
+Episode 525	Time 3.63sec(m)	Avg. Score both 100ep: 0.0418	Max: 2.700000
+Episode 550	Time 4.79sec(m)	Avg. Score both 100ep: 0.0577	Max: 2.70000
+Episode 575	Time 6.31sec(m)	Avg. Score both 100ep: 0.0837	Max: 2.70000
+Episode 900	Time 32.81sec(m)	Avg. Score both 100ep: 0.6541	Max: 2.70000
+Episode 925	Time 34.58sec(m)	Avg. Score both 100ep: 0.6865	Max: 2.70000
+Episode 950	Time 37.31sec(m)	Avg. Score both 100ep: 0.7164	Max: 2.70000
+Episode 975	Time 39.63sec(m)	Avg. Score both 100ep: 0.7444	Max: 2.70000
+Episode 1000	Time 41.81sec(m)	Avg. Score both 100ep: 0.7712	Max: 2.70000
+Episode 1001	Time 191.76sec	Average Score: 2.6500	Max: 2.7000	Min: 2.600
