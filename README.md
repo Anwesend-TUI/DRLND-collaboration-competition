@@ -66,14 +66,15 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ## State and action space
 The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation. Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping. 
 
-State and action space look like this:
-Number of agents: 2
-Size of each action: 2
-There are 2 agents. Each observes a state with length: 24
-The state for the first agent looks like: [ 0.          0.          0.          0.          0.          0.
-  0.          0.          0.          0.          0.          0.
-  0.          0.          0.          0.         -6.65278625 -1.5
- -0.          0.          6.83172083  6.         -0.          0.        ]
+State and action space look like this:  
+Number of agents: 2  
+Size of each action: 2  
+There are 2 agents. Each observes a state with length: 24  
+The state for the first agent looks like:  
+[ 0.          0.          0.          0.          0.          0.  
+  0.          0.          0.          0.          0.          0.  
+  0.          0.          0.          0.         -6.65278625 -1.5  
+ -0.          0.          6.83172083  6.         -0.          0.        ]  
 
 ## The environment is considered solvend 
 The task is episodic, and in order to solve the environment, the agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents). 
