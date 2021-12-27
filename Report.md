@@ -4,9 +4,7 @@
 I chose the DDPG algorithm and adapeted the version that solved the Reacher environment successfully. 
 Deep Deterministic Policy Gradient (DDPG) was first described by Lillicrap et al. in [this paper](https://arxiv.org/abs/1509.02971). The underlying idea was to circumvent the disadvantages of both policy-based and model based aproches. The authors claim DDPG to be "an actor-critic, model-free algorithm based on the deterministic policy gradient that can operate over continuous action spaces". 
 This is achieved as follows:  
-DDPG has actor network to choose and execute its action and a critic network that estimates/approximates the value of the optimal action-value function Q^*(s,a) (similar to Q-learning). But unlike Q-learning, the critic does this for environments with continuous action spaces. Furthermore there is a target network for each actor and critic which is soft-updated after each learning interval. 
-So DDPG can be thought of as being deep Q-learning for continuous action spaces.  
-DDPG uses a Replay buffer that saves the actions, steps and rewards and next states. This shall lead to a more stable behaviour of the training process. 
+DDPG has actor network to choose and execute its action and a critic network that estimates/approximates the value of the optimal action-value function Q^*(s,a) (similar to Q-learning). But unlike Q-learning, the critic does this for environments with continuous action spaces. Furthermore there is a target network for each actor and critic which is soft-updated after each learning interval. So DDPG can be thought of as being deep Q-learning for continuous action spaces.  DDPG uses a Replay buffer that saves the actions, steps and rewards and next states. This shall lead to a more stable behaviour of the training process. 
 
 ### Design of the networks
 The introduction of batch-normalization for the first layer of the actor as well as the critic network lead to a more steady training without increasing the training time to much. 
