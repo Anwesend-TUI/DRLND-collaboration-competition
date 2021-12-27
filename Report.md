@@ -8,7 +8,7 @@ DDPG has actor network to choose and execute its action and a critic network tha
 
 ### Design of the networks
 The introduction of batch-normalization for the first layer of the actor as well as the critic network lead to a more steady training without increasing the training time to much. 
-In my opinion the task should not be that complex for the ddn model, so I chose smaller sized networks with 128 hidden units in the first layer and 64 in the second, which seemed to to pretty good.
+In my opinion the task should not be that complex for the ddn model, so I chose smaller sized networks with 128 hidden units in the first layer and 64 in the second, which seemed to be pretty good.
 
 ## Parameters
 ```BUFFER_SIZE = int(1e6)  # replay buffer size
