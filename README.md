@@ -72,9 +72,9 @@ Size of each action: 2
 There are 2 agents. Each observes a state with length: 24  
 The state for the first agent looks like:  
 [ 0.          0.          0.          0.          0.          0.
-0.          0.          0.          0.          0.          0.
-1.            0.          0.          0.          0.         -6.65278625 -1.5
-2.             -0.          0.          6.83172083  6.         -0.          0.        ]  
+0.          0.          0.          0.          0.          0. 
+1.          1.            0.          0.          0.          0.         -6.65278625 -1.5 
+2.          2.             -0.          0.          6.83172083  6.         -0.          0.        ]  
 
 ## The environment is considered solvend 
 The task is episodic, and in order to solve the environment, the agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents). 
