@@ -20,21 +20,20 @@ LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0.00001        # L2 weight decay
 UPDATE_INTERVAL = 5 
 LEARN_PASSES=10 
-EPSILON=6
+EPSILON=5
 EPSILON_DECAY=1e-5 #decay rate for added noise (exploration)
 ```
 Most important here were the noise parameters especially EPSILON and the seed value.  
-A Higher Epsilon of 5 or 6 lead to significantly better results at first few hundred episodes of the training process. This was not for every Seed the case, but for a few like `seed = 5` or  `seed = 7`.
+A higher Epsilon of 5 or 6 lead to significantly better results at first few hundred episodes of the training process. This was not for every seed the case, but for a few like `seed = 5` or `seed = 7` or `seed = 8`.
 
 The implementation of Epsilon decay to reduce the noise and therefor the probability that a random action is taken later in the training process seemd to be beneficial. 
 
-
 ## Plot of Rewards:
-The Plot showing an average reward over 30 can be found in Tennis.ipynb and here: ![Plot of the Results](Training_results.png).  
-The following consecutive 100 episodes were also each with mean rewards > 0.5. So the training was successfully stopped after episode .
+The Plot showing an average reward over 0.5 can be found in Tennis.ipynb and here: ![Plot of the Results](Training_Results.png).  
+After consecutive 100 episodes with mean rewards > 0.5 the training was successfully stopped. This was the case after episode 1821.
 
 # Ideas for Future Work:
-Tuning the DDPG algorithm required a lot of trial and error. Especialy the dependency on the random seed was a downside in my opinion. So more research should be done on how this dependency on a randomnes at the initialization can be reduces. Probably for this task/application other reinforcement learning algorithms are more beneficial. 
-Perhaps another algorithms like [Proximal Policy Optimization (PPO)](Proximal Policy Optimization Algorithms), or Distributed Distributional Deterministic Policy Gradients (D4PG) would be more robust.
+Tuning the DDPG algorithm required a lot of trial and error. Especially the dependency on the random seed was a downside in my opinion. So more research should be done on how this dependency on a randomnes at the initialization can be reduced. Probably for this task/application other reinforcement learning algorithms are more beneficial. 
+Perhaps other algorithms like [Proximal Policy Optimization (PPO)](Proximal Policy Optimization Algorithms), or Distributed Distributional Deterministic Policy Gradients (D4PG) would be more robust.
 
 Also prioritized experience replay may be a good idea here. That means in the learning step instead of randomly selecting episodes from the replay buffer searching for episodes that had a reward bigger than a certain reference value.
