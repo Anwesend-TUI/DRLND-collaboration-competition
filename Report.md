@@ -29,7 +29,8 @@ A higher Epsilon of 5 or 6 lead to significantly better results at first few hun
 The implementation of Epsilon decay to reduce the noise and therefor the probability that a random action is taken later in the training process seemd to be beneficial. 
 
 ## Plot of Rewards:
-The Plot showing an average reward over 0.5 can be found in Tennis.ipynb and here:  ![Plot of the Results](Training_Results.png).  
+The Plot showing an average reward over 0.5 can be found in Tennis.ipynb and here:  
+![Plot of the Results](Training_Results.png).  
 After consecutive 100 episodes with mean rewards > 0.5 the training was successfully stopped. This was the case after episode 1821.
 
 # Ideas for Future Work:
