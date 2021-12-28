@@ -21,7 +21,7 @@ LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0.00001        # L2 weight decay
 UPDATE_INTERVAL = 5 # test 30
 LEARN_PASSES=10 # 10 (then 20) and 1024buffer
-EPSILON=6
+EPSILON=5
 EPSILON_DECAY=1e-5 #decay rate for added noise (exploration)
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
